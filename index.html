@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Registration</h2>
+        <form action="">
+            <div class="user-details">
+                <div class="input-box">
+                    <label for="name">    Full Name</label>
+                    <input type="text" name="" id="name"
+                    placeholder="Enter your name">
+                </div>
+
+                <div class="input-box">
+                    <label for="username">Username</label>
+                    <input type="text" name="" id="username" placeholder="Enter your username" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" name="" id="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="number">Phone Number</label>
+                    <input type="text" name="" id="number" placeholder="Enter your number">
+                </div>
+                
+                <div class="input-box">
+                    <label for="password">Password</label>
+                    <input type="password" name="" id="password" placeholder="Enter your password">
+                </div>
+
+                <div class="input-box">
+                    <label for="password">Confirm Password</label>
+                    <input type="password" name="" id="password" placeholder="Confirm your password">
+                </div>
+  
+            </div>
+            <h3>Age Group</h3>
+            <div class="age-group">
+                <div class="radio-section">
+                    <input type="radio" id="young" name="age-group">
+                    <label for="young">Young</label>
+                </div>
+
+                <div class="radio-section">
+                    <input type="radio" id="middle" name="age-group">
+                    <label for="middle">Middle Age</label>
+                </div>
+
+                <div class="radio-section">
+                    <input type="radio" id="old" name="age-group">
+                    <label for="old">Old</label>
+                </div>
+            </div>
+            <div class="sub-btn-container">
+                <button 
+                class="sub-btn">Register</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
